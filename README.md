@@ -13,12 +13,11 @@ Firstly we re going to provide a brief overview of the all he aspects involved i
 In order to clean acuratey our data based, we set the researh main question to focus the cleaning.
 
 ---------------------------------------**VALIDATION**--------------------------------------
-  -  **The particularities of each maritime area (temperature, climatology, etc) does affects to the attacks?** -
+  -  **The particularities of each maritime area (temperature, climatology, etc) does affects to the attacks in the last 40 years?** -
 -------------------------------------------------------------------------------------------
-- Which is most dangeruos maritime area? 
-- Which are ethe countries with more attacks in each maritime area?
-- The own particularities of each maritime area (temperature, climatology, etc) affects to the attacks?
-- What is the most likely timeframe where the attacks can occur? Is the same in the two most dangerous areas?
+- ****First question: Which is most dangeruos maritime area? 
+- ****Second question: Which are ethe countries with more attacks in each maritime area?
+- ****Third question: What is the most likely timeframe where the attacks can occur? Is the same in the two most dangerous areas?
 
 
 ## 2. Metholody
@@ -39,11 +38,27 @@ To perform the investigation, we proceed as follows:
             - Droping duplicate values 
 
 - 3. Cleaning data -- YEARS COLUMN:
+    - Drop all the rows that have NaN in years & date column
+    - Create a new column "New_Year" duplying the years in "Date" in order to extract the year that appears in the column when Date when Year column is = 0 using regex code . We create a new column in order to don't modify the original columns. we move all the dtaa t new column "All_years".
+    - we detect some values of Year as 500, 70,7 and 0 that could be correct. So we are going to verify the data with the column date.  ***df6***
+    - We will apply the result of the extraction to Years column whenever is < 1542 ( as al the years below here we suspect are they are wrong)
 
-- we open we start cleaning general data:
-    - 
+- 4. Cleaning data -- COUNTRY COLUMN:
+    - Try to find the null values in other columns as "Area or Location" **.loc**
+    - Clean country values: moddify to upper case
+    - Assign Countries to Oceans with for loop in a new empty column "Oceans"
+    - For not assigned values, we try to extract whenever the string contains the word      "OCEAN", copy the string value to the column Ocean
+    - Unify names and assign to column
+    - Drop empty values with no ocean assigned (194 values)
+    
+- 5. Cleaning Data - Cleaning
+    - Remove null values 
+    - Assign hour to a time zone with for loop (Sunrise, Morning, Afternoon and Night) with regex method ((r'^\d{2}$') and add the result to a new column "Cleaned time"
 
-- `pandas_1.ipynb` with your responses to each of the exercises.
+## CONCLUSIONS
+
+
+
 
 ## Libraries used
 

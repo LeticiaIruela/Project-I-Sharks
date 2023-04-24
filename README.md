@@ -13,7 +13,7 @@ Firstly we re going to provide a brief overview of the all he aspects involved i
 In order to clean acuratey our data based, we set the researh main question to focus the cleaning.
 
 ---------------------------------------**VALIDATION**--------------------------------------
-  -  **The particularities of each maritime area (temperature, climatology, etc) does affects to the attacks in the last 40 years?** -
+  -  **Which is the most dangerous maritime area since 1980?** -
 -------------------------------------------------------------------------------------------
 - ****First question: Which is most dangeruos maritime area? 
 - ****Second question: Which are ethe countries with more attacks in each maritime area?
@@ -71,12 +71,11 @@ To perform the investigation, we proceed as follows:
 
 
 ## Link & Resources
-Links & Resources
-https://www.kaggle.com/teajay/global-shark-attacks
-https://numpy.org/doc/1.18/
-https://pandas.pydata.org/
-https://docs.python.org/3/library/functions.html
-https://plotly.com/python/
-https://matplotlib.org/
-https://seaborn.pydata.org/
-https://pandas.pydata.org/docs/
+- https://www.kaggle.com/teajay/global-shark-attacks
+- https://numpy.org/doc/1.18/
+- https://pandas.pydata.org/
+- https://docs.python.org/3/library/functions.html
+- https://plotly.com/python/
+- https://matplotlib.org/
+- https://seaborn.pydata.org/
+- https://pandas.pydata.org/docs/

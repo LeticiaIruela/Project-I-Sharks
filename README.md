@@ -57,15 +57,18 @@ To perform the investigation, we proceed as follows:
 
 ## CONCLUSIONS
 
-
+- The most dangerous ocean is the North Atlantic, followed by South Atlantic and Indian Sea
+- From the North Atlatinc the countries with more attacks are: USA and Bahamas, and from the South Pacific: Australia and New Zealand
+- The time frame with more attacks is the afternoon
 
 
 ## Libraries used
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import os
 
-
-## Submission
-
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
 
 ## Link & Resources
 Links & Resources

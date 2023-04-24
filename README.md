@@ -19,6 +19,7 @@ In order to clean acuratey our data based, we set the researh main question to f
 - ****Second question: Which are ethe countries with more attacks in each maritime area?
 - ****Third question: What is the most likely timeframe where the attacks can occur? Is the same in the two most dangerous areas?
 
+To take into account: the year 1980 is chosen randomly to have a wide range of years. In this way, it is also guaranteed in a certain way that more records were made in the 80s than before and we avoid to much dispersion in the results.
 
 ## 2. Metholody
 

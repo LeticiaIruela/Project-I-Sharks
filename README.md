@@ -63,11 +63,11 @@ To perform the investigation, we proceed as follows:
 
 
 ## Libraries used
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import os
+- import pandas as pd
+- import numpy as np
+- import seaborn as sns
+- import matplotlib.pyplot as plt
+- import os
 
 
 ## Link & Resources

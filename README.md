@@ -1,6 +1,6 @@
 # Project-I-Sharks
 
-![image](https://user-images.githubusercontent.com/128729754/234209557-50bf94ed-5b6b-4e1b-803f-f3ff0faf34dc.png)
+![image](https://user-images.githubusercontent.com/128729754/234209857-6153420e-d972-47ee-8ce7-1318e91be24b.png)
 
 
 ## 0. Introduction

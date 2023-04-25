@@ -13,12 +13,13 @@ Firstly we re going to provide a brief overview of the all he aspects involved i
 In order to clean acuratey our data based, we set the researh main question to focus the cleaning.
 
 ---------------------------------------**VALIDATION**--------------------------------------
-  -  **The particularities of each maritime area (temperature, climatology, etc) does affects to the attacks in the last 40 years?** -
+***Which is the most dangerous maritime area since 1980? ***
 -------------------------------------------------------------------------------------------
 - ****First question: Which is most dangeruos maritime area? 
 - ****Second question: Which are ethe countries with more attacks in each maritime area?
 - ****Third question: What is the most likely timeframe where the attacks can occur? Is the same in the two most dangerous areas?
 
+To take into account: the year 1980 is chosen randomly to have a wide range of years. In this way, it is also guaranteed in a certain way that more records were made in the 80s than before and we avoid to much dispersion in the results.
 
 ## 2. Metholody
 
@@ -57,15 +58,18 @@ To perform the investigation, we proceed as follows:
 
 ## CONCLUSIONS
 
-
+- The most dangerous ocean is the North Atlantic, followed by South Atlantic and Indian Sea
+- From the North Atlatinc the countries with more attacks are: USA and Bahamas, and from the South Pacific: Australia and New Zealand
+- The time frame with more attacks is the afternoon
 
 
 ## Libraries used
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import os
 
-
-## Submission
-
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
 
 ## Link & Resources
 Links & Resources
@@ -77,3 +81,5 @@ https://plotly.com/python/
 https://matplotlib.org/
 https://seaborn.pydata.org/
 https://pandas.pydata.org/docs/
+
+

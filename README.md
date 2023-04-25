@@ -1,5 +1,8 @@
 # Project-I-Sharks
 
+![image](https://user-images.githubusercontent.com/128729754/234209557-50bf94ed-5b6b-4e1b-803f-f3ff0faf34dc.png)
+
+
 ## 0. Introduction
 
 On this project, the main goal is to clean the data of the provided attacks.csv* file using pandas. Additionaly, we will define some functions to run the code and we will execute some visualizations to present the findings.

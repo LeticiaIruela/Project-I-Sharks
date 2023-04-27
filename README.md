@@ -16,7 +16,6 @@ Firstly we re going to provide a brief overview of the all he aspects involved i
 In order to clean acuratey our data based, we set the researh main question to focus the cleaning.
 
 ---------------------------------------**VALIDATION**--------------------------------------
-<<<<<<< HEAD
 ***Which is the most dangerous maritime area since 1980? ***
 =======
   -  **Which is the most dangerous maritime area since 1980?** -
@@ -108,4 +107,3 @@ https://pandas.pydata.org/docs/
 - https://matplotlib.org/
 - https://seaborn.pydata.org/
 - https://pandas.pydata.org/docs/
->>>>>>> d65a0e654122f676500fe8d628cb1a9a1899738b
